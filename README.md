@@ -1,5 +1,5 @@
 # Weather App with Vue.js
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: github_username, repo_name, twitter_handle, linkedin_username, email_client, email, project_title, project_description
+My first project to learn Vue.js. It's a simple the Weather app to check the weather for your current location or in other places.
 
 
 ## Highlights
