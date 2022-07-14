@@ -1,5 +1,4 @@
 <template>
-  <user-profile name="John" :age="20" :favourite-colors="['green', 'blue', 'red']" is-available />
   <div class="container max-w-screen-xl p-4 mx-auto">
     <h1 class="mb-6 text-3xl text-center text-white">Weather App</h1>
     <div class="w-full mx-auto mb-12 md:w-3/5">
@@ -23,7 +22,7 @@
           Object.keys(datas[0]).toString()
           }}</button>
         <div class="flex flex-wrap justify-center gap-4">
-          <div v-for="(items, index) in datas" :key="index" v-show="datas.isHidden" class="w-2/5">
+          <div v-for="(items, index) in datas" :key="index" v-show="datas.isHidden" class="w-full lg:w-2/5">
             <div v-for="(item, index) in items" :key="index" class="p-4 mb-6 border-2 border-cyan-800">
               <WeatherCard :hour=item.dt :temp=item.main.temp.toFixed() :feelsLike=item.main.feels_like.toFixed()
                 :humidity=item.main.humidity :wind=item.wind.speed :nameIcon=item.weather[0].icon
@@ -50,7 +49,7 @@
           class="w-full p-4 my-2 text-lg uppercase transition-colors border-2 text-cyan-700 border-cyan-800 hover:text-white hover:bg-cyan-800">{{
           Object.keys(datas[0]).toString() }}</button>
         <div class="flex flex-wrap justify-center gap-4">
-          <div v-for="(items, index) in datas" :key="index" v-show="datas.isHidden" class="w-2/5">
+          <div v-for="(items, index) in datas" :key="index" v-show="datas.isHidden" class="w-full lg:w-2/5">
             <div v-for="(item, index) in items" :key="index" class="p-4 border-2 border-cyan-800">
               <WeatherCard :hour=item.dt :temp=item.main.temp.toFixed() :feelsLike=item.main.feels_like.toFixed()
                 :humidity=item.main.humidity :wind=item.wind.speed :nameIcon=item.weather[0].icon
