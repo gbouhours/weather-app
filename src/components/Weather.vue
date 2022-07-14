@@ -140,7 +140,7 @@ export default {
         let result = [];
 
         axios
-        .get(`http://api.openweathermap.org/geo/1.0/reverse?lat=${this.lat}&lon=${this.lon}&units=metric&appid=${this.api_key}&lang=fr`)
+        .get(`https://api.openweathermap.org/geo/1.0/reverse?lat=${this.lat}&lon=${this.lon}&units=metric&appid=${this.api_key}&lang=fr`)
         .then(response => {
           this.city = response.data[0].name;
         })
