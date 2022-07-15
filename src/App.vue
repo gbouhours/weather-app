@@ -1,5 +1,5 @@
 <template>
-  <weather-app></weather-app>
+  <WeatherApp />
 </template>
 
 <script>

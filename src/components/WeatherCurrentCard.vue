@@ -38,7 +38,8 @@ const props = defineProps({
     :src="`http://openweathermap.org/img/wn/${props.nameIcon}@2x.png`" 
     :alt="`${props.descriptionIcon}`"
     :title="`${props.descriptionIcon}`"
-    class="w-24 h-full">
+    class="w-24 h-full"
+  >
   <div>
     <p class="mb-3 font-sans text-2xl text-left text-cyan-700">
       Temperature: {{ props.temp }}°C
