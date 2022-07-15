@@ -1,6 +1,6 @@
 # Weather App with Vue.js
 My first project to learn Vue.js. It's a simple the Weather app to check the weather for your current location or in other places.
-
+[Demo](https://tourmaline-bienenstitch-498e76.netlify.app/)
 
 ## Highlights
 * Use [OpenWeatherMap API](https://openweathermap.org)
@@ -61,3 +61,5 @@ Distributed under the MIT License.
 Grégory Bouhours [@GregoryBouhours](https://twitter.com/GregoryBouhours)
 
 Project Link: https://github.com/gbouhours/weather-app.git
+
+Project demo: https://tourmaline-bienenstitch-498e76.netlify.app/
